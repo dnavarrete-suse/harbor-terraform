@@ -1,8 +1,8 @@
 # Terraform to install Harbor on DigitalOcean
 
-Terraform will just create an Ubuntu droplet and a DNS record. 
+Terraform will just create an Ubuntu droplet and a DNS record. Then leveraging a custom script, it will install harbor on top of docker.
 
-A script will run to install everything needed. Including certificates for Harbor using certbot. 
+A script will run to install everything needed, including certificates for Harbor using certbot. 
 
 After around 5-10 min. harbor will be available at harbor-{suffix-from-terraform-tf-vars}.{digital-ocean-domain} . The harbor containers may take up to 5min. to work properly, if you see everything running and without errors, be patient.
 
