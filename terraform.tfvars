@@ -20,7 +20,7 @@ region = "fra1"
 size = "s-4vcpu-8gb"
 
 #Image to be used. This was tested on "ubuntu-20-04-x64". If you use any other OS, you will need to adapt the commands on the "files/harbor-configuration.sh" configuration file to that particular OS.
-image = "ubuntu-20-04-x64"
+image = "ubuntu-24-04-x64"
 
 #DigitalOcean Domain
 digitalocean_domain = ""
